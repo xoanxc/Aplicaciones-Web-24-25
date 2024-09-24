@@ -1,0 +1,13 @@
+/* Para utilizar la fuente local */
+@font-face {
+    font-family: 'Cantarell';
+    src: url('../fonts/Cantarell-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aplicar fuente Cantarell del archivo fonts */
+#fuenteGaleria {
+    font-family: 'Cantarell', sans-serif;
+    text-align: center;
+}

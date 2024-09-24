@@ -1,6 +1,7 @@
-/*Cambiar h2 en tablas a rojo*/
-
-h2 {
-    color: red;
+/*Clase para todas las imagenes */
+.image{ /* Ejemplo para Clase*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 12px 12px 12px 12px;
 }
-

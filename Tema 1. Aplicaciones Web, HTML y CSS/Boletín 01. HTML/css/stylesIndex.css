@@ -1,0 +1,16 @@
+/*Poner h1 en un cuadro redondeado de color gris*/
+h1 {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f0f0f0;
+}
+
+/*Poner h2 en un cuadro redondeado*/
+h2 {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #5484a4;
+}
+

@@ -8,6 +8,7 @@ body {
     line-height: 1.6;
 }
 
+/* Títulos */
 h2 {
     font-size: 24px;
     font-weight: 500;
@@ -70,12 +71,11 @@ section:nth-child(even) {
 /* Controles multimedia */
 audio, video {
     display: block;
-    margin: 20px 0;
     width: 100%;
     max-width: 800px; /* Aumentó deñ ancho máximo del bloque de vídeo */
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s;
+    transition: transform 0.3s; /* Efecto al poner el raton encima */
 }
 
 audio:hover, video:hover {
@@ -89,7 +89,7 @@ a {
     transition: color 0.3s;
 }
 
-a:hover {
+a:hover { /* Efecto al poner el raton encima */
     text-decoration: underline;
     color: #174ea6;
 }
