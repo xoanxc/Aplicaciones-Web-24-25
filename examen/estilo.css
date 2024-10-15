@@ -1,0 +1,80 @@
+/*Ejercicio 1. Asigna como color de fondo de la página un color gris claro, con un margen y padding nulo*/
+body {
+    background-color: #d2c9c9;
+    margin: 0;
+    padding: 0;
+}
+
+/*Ejercicio 2. Define como fuente por defecto, para todas las etiquetas, "Comic Sans". En caso de que el sistema operativo no tenga ninguna fuente de ese tipo, se debe cargar la fuente Sans Serif que tenga por defecto el sistema.*/
+
+* { /*Para todas las etiquetas*/
+    font-family: "Comic Sans MS", sans-serif; /*Fuente por defecto Comic Sans*/
+
+    /*Si no existe, se pone la por defecto en el sistema*/ 
+}
+
+/*Ejercicio 3. Configura la etiqueta header para que tenga las siguientes caracteristicas: 
+Color de fondo: rojo 
+Distancia de contenido al borde: 20 píxeles
+Radio del borde; 20 píxeles 
+Ancho: Toda la página
+Radio del borde; 20 píxeles
+Ancho: Toda la página
+Borde: Negro de 2 píxeles de ancho*/
+
+
+header{
+    background-color: red;
+    margin: 20px;
+    border-radius: 20px;
+    width:max-content;
+    border:#000000 2px;
+}
+
+/*4. Se debe mantener la configuración del primer header y cambiar los demas header para que tengan las siguientes características:
+Color de fondo: azul celeste
+Distancia de contenido al borde 10 píxeles
+Distancia del borde al ememento que contiene el header: 20 píxeles
+Ancho: 70 por ciento de la pagina
+Borde: sin borde*/
+
+header{
+    background-color: aqua;
+    margin: 10px;
+    margin-block: 20px; /*No se si es esto*/
+    border-radius: 30px;
+    width: 70%;
+    border: 0;
+}
+
+/*Ejercicio 5. Marca los textos que están dentro de la etiqueta span de color azul, en mayúsculas y en itálica*/
+
+span{
+    color:blue;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+/*Ejercicio 6. Configura en css las siguientes clases*/
+
+.negrita{
+    font-weight: 400;
+}
+
+.subrayado{
+    text-decoration: underline;
+}
+
+.roja{
+    color: red;
+}
+
+.cursiva{
+    font-style: italic;
+}
+
+/*Ejercicio 7. Alinear parrafos a la derecha y con distancia al borde izquiero del 10%*/
+p{
+    text-align: right;
+    margin-left: 10%;
+}

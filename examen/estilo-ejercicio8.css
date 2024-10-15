@@ -1,0 +1,27 @@
+table{
+    width: 60%;
+    max-width: 700px;
+    margin: auto;
+}
+
+/*Cabecera de la tabla fondo de color 00557f*/
+#cabecera{
+    font-size: 110%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    background-color: #00557f;
+}
+
+body{
+    font-size: 90%;
+    text-align: left;
+
+    border-right: darkblue 2px solid;
+    background-color: #E1EEf4;
+}
+
+#boton{
+    text-align: right;
+    margin: 10%;
+}
